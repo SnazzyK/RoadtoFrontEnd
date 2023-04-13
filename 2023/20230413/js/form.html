@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Знакомство с HTML тегами(формы)</title>
+</head>
+
+<body>
+    <form action="#" method="get" enctype="multipart/form-data">
+        <div>
+            <p>Имя</p>
+            <input placeholder="Введите логин" type="text" name="username" tabindex="1">
+        </div>
+
+        <div>
+            <p>Пароль</p>
+            <input placeholder="Введите пароль" type="password" name="userpass" tabindex="2">
+        </div>
+        <div>
+            <p>Телефон</p>
+            <input placeholder="Введите номер телефона" type="tel" name="userphone" tabindex="3">
+        </div>
+        <div>
+            <p>Пол</p>
+            <div>
+                <input checked type="radio" name="gender" value="male" tabindex="4">Мужской
+            </div>
+            <div>
+                <input type="radio" name="gender" value="female" tabindex="4">Женский
+            </div>
+        </div>
+        <div>
+            <p>Имущество</p>
+            <div>
+                <input checked type="checkbox" name="bike" value="yes" tabindex="5">Велосипед
+            </div>
+            <div>
+                <input type="checkbox" name="car" value="yes" tabindex="6">Машина
+            </div>
+            <div>
+                <input disabled type="checkbox" name="house" value="yes" tabindex="7" >Дом
+            </div>
+        </div>
+        <div>
+            <p>Дополнительная информация </p>
+            <textarea tabindex="8" name="text"></textarea>
+        </div>
+        <div>
+            <p>Прикрепить фото</p>
+            <input tabindex="9" type="file" name="userphoto"/>
+        </div>
+        <div>
+            <p>Любимый цвет</p>
+            <select tabindex="10" name="color">
+                <option value="red">Красный</option>
+                <option selected value="blue">Голубой</option>
+                <option value="green">Зеленый</option>
+            </select>
+            
+        </div>
+        <div>
+            <p>Действие</p>
+            <button tabindex="11" type="submit"> Отправить</button>
+            <button tabindex="12" type="reset">Очистить</button>
+
+        </div>
+
+
+    </form>
+</body>
+
+</html>
