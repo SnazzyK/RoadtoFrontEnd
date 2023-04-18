@@ -1,0 +1,80 @@
+/*--------------------*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 717px;
+	width: 1280px;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+.example-fist {
+    margin: 53px 619px 33px 50px;
+    width: 200; 
+}
+.example-second {
+    display: block;
+    margin:33px 957px 1px 49px; 
+}
+
+.href {
+    margin:2px 779px 32px 48px;
+}
+.example-thrid {
+    margin:32px 84px 34px 51px;
+    height:25px ;
+}
+.example-fourth {
+    margin: 34px 41px 35px 51px;
+}
+.rightDiv {
+    
+    margin: -49px 41px 35px 300px;
+}
+.span {
+    display: block;
+    margin: 35px 70px 37px 90px;
+}
+.href2 {
+    display: block;
+    margin: -50px 70px 37px 530px;
+   
+    
+}
+
+.span2 {
+    display :block;
+    padding:30px 0px 33px 0px ;
+    margin: 37px 887px 174px 50px;
+    width: 400px;
+    
+
+}
