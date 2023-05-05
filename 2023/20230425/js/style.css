@@ -110,6 +110,12 @@ h6 {
     padding: 0px 0px 0px 35px;
     text-decoration: line-through;
 }
+.list li:before{
+    content:'';
+}
+.list li:after{
+    content:'>>>';
+}
 
 .list li:nth-child(2) {
     background: url(check_icon_97.png) left no-repeat;
@@ -248,9 +254,20 @@ h6 {
 }
 
 .areaSecond {
-    margin:-75px 0px 0px 490px 
+    margin:-35px 0px 0px 490px 
 }
 .areak:focus{
 border: 1px solid #7fbed5;
 box-shadow: 0px 0px 20px -1px rgba(127,190,213,0.93);
+}
+.TextUpLine{
+    margin: 80px 0px 30px 0px ;
+}
+.TextFirstLine::first-line{
+
+color: red;
+}
+.FirstLetter::first-letter{
+
+    color: red;
 }
