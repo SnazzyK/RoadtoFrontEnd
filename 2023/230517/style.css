@@ -9,10 +9,12 @@
 
 }
 .header {
-    background-color: blueviolet;
+    background-color: rgb(116, 56, 0);
     grid-area: header;
     padding:15px;
+    
     display:grid;
+    grid-row:;
 }
 .header__logo {
     width: 70px;
