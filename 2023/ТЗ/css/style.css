@@ -39,52 +39,109 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 
 .wrapper {
+    
+    
+}
+.conteiner_main{
     max-width: 1600px;
-    height: 3284px;
+    height: 3224px;
+    
 }
-.navi {
+
+.navbar {
+    width: 1600px;
     height: 60px;
-    
-    
 }
-
-
-.navi__menu {
-    padding: 19px 200px 19px 200px ;
-    
-    
-}
-.navi__list li{
-    font-size:18px ;
-    
-}
-
-.list__color{
-    color: #E86136;
-    
-}
-.navi__list li:first-child{
-    padding: 0px 0px 0px 0px;
-}
-.navi__list li:last-child{
-    padding: 0px 0px 0px 0px;
-}
-
-.navi__list {
-    background-color: #fff;
+.navbar .container {
+    height: inherit;
     display: flex;
     justify-content: space-between;
-    
-}
-.li_2 {
-    padding: 0px 0px 0px 100px;
+    align-items: center;
 }
 
-.li_7 {
-    padding: 0px 107px 0px 0px;
+.navbar-brand {
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+color: #E86136;
+margin: 0px 0px 0px 220px;
+}
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.navbar-menu {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.navbar-menu li {
+    padding-left: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    padding: 0px 0px 0px 40px;
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+color: #313131;
+}
+.navbar-menu li a {
+    display: inline-block;
+}
+.company_number {
+    margin-left: 107px;
+    margin-right: 220px;
+
+
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: right;
+text-transform: uppercase;
+color: #E86136;
 }
 
+.decor_line1{
+    position: absolute;
+    width: 199px;
+    height: 0px;
+    left: 0.5px;
+    top: 29.5px;
 
+    border: 1px solid #949494;
+}
+.decor_line2{
+position: absolute;
+width: 110px;
+height: 0px;
+left: 373px;
+top: 30px;
+border: 1px solid #949494;
+
+}
+.decor_line3{
+    position: absolute;
+    width: 80px;
+    height: 0px;
+    left: 1148px;
+    top: 30px;
+    border: 1px solid #949494;
+}
+.decor_line4{
+
+    position: absolute;
+    width: 199px;
+    height: 0px;
+    left: 1400.5px;
+    top: 29.5px;
+    border: 1px solid #949494;
+}
 
 
 
@@ -114,8 +171,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
     line-height: 100%;
     color:#fff;
     text-transform: uppercase;
-grid-area:title;
-padding: 60px 0px 0px 220px;
+    grid-area:title;
+    padding: 60px 0px 0px 220px;
 
 }
 
@@ -136,7 +193,7 @@ padding: 60px 0px 0px 220px;
     
     grid-area:buton;
     
-    padding: 0px 0px 0px 220px;
+    padding: 30px 0px 0px 220px;
     
 }
 
@@ -148,14 +205,14 @@ padding: 60px 0px 0px 220px;
     border-radius: 4px;
     font-family: 'Gilroy';
     font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 21px;
-text-transform: uppercase;
-padding: 0px 0px 0px 0px;
-background-image: url('/img/arrow01.png');
-background-repeat: no-repeat;
-background-position: 285px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    padding: 0px 0px 0px 0px;
+    background-image: url('/img/arrow01.png');
+    background-repeat: no-repeat;
+    background-position: 285px 20px;
     
 }
 
@@ -222,18 +279,36 @@ text-align: center;
 
 
 .description {
-    width: 1600px;
+    width: 1160px;
     height:800px ;
     
 }
 .description__title {
-    font-family: 'Gilroy';
-    font-style: normal;
+font-family: 'Gilroy';
+font-style: normal;
 font-weight: 400;
 font-size: 70px;
 line-height: 100%;
 text-transform: uppercase;
 padding: 90px 0px 0px 220px;
+}
+.line_title1{
+    position: absolute;
+    width: 189px;
+    height: 0px;
+    left: 0.5px;
+    top: 933px;
+    border: 1px solid #949494;
+    margin: 50px 0px 0px 0px;
+}
+.line_title2{
+    position: absolute;
+    width: 745px;
+    height: 0px;
+    left: 827.5px;
+    top: 933px;
+    border: 1px solid #949494;
+    margin: 50px 0px 0px 30px;
 }
 .description__column {
     display: flex;
@@ -328,6 +403,24 @@ font-weight: 400;
 font-size: 70px;
 line-height: 100%;
 text-transform: uppercase;
+}
+.excursions__line_title1{
+    position: absolute;
+    width: 189px;
+    height: 0px;
+    left: 0.5px;
+    top: 1626px;
+    border: 1px solid #949494;
+    margin: 70px 0px 0px 0px;
+}
+.excursions__line_title2{
+    position: absolute;
+    width: 941px;
+    height: 0px;
+    left: 658.5px;
+    top: 1626px;
+    border: 1px solid #949494;
+    margin: 70px 0px 0px 0px ;
 }
 .excursions__title{
     padding: 0px 0px 60px 220px;
@@ -627,6 +720,8 @@ margin: -10px 0px 0px 0px;
     left: 0px;
     opacity: 0;
     visibility: hidden;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 .popup:target{
     opacity: 1;
